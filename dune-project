@@ -1,2 +1,2 @@
 (lang dune 1.7)
-(name test)
+(name esy-extra-sources-cache-tarball-test)

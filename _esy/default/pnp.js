@@ -207,6 +207,20 @@ new Map([["3.7.0",
                                              ["@opam/csexp", "opam:1.5.1"],
                                              ["@opam/dune", "opam:2.8.5"],
                                              ["ocaml", "4.9.1000"]])}]])],
+  ["@opam/dot-merlin-reader",
+  new Map([["opam:4.1",
+           {
+             packageLocation: "/Users/melwyn/.esy/source/i/opam__s__dot_merlin_reader__opam__c__4.1__e3b8bf05/",
+             packageDependencies: new Map([["@esy-ocaml/substs", "0.0.1"],
+                                             ["@opam/csexp", "opam:1.5.1"],
+                                             ["@opam/dot-merlin-reader",
+                                             "opam:4.1"],
+                                             ["@opam/dune", "opam:2.8.5"],
+                                             ["@opam/ocamlfind",
+                                             "opam:1.9.1"],
+                                             ["@opam/result", "opam:1.5"],
+                                             ["@opam/yojson", "opam:1.7.0"],
+                                             ["ocaml", "4.9.1000"]])}]])],
   ["@opam/dune",
   new Map([["opam:2.8.5",
            {
@@ -282,6 +296,19 @@ new Map([["3.7.0",
                                              ["@opam/dune", "opam:2.8.5"],
                                              ["@opam/menhirSdk",
                                              "opam:20210419"],
+                                             ["ocaml", "4.9.1000"]])}]])],
+  ["@opam/merlin",
+  new Map([["opam:3.5.0",
+           {
+             packageLocation: "/Users/melwyn/.esy/source/i/opam__s__merlin__opam__c__3.5.0__b453e51c/",
+             packageDependencies: new Map([["@esy-ocaml/substs", "0.0.1"],
+                                             ["@opam/csexp", "opam:1.5.1"],
+                                             ["@opam/dot-merlin-reader",
+                                             "opam:4.1"],
+                                             ["@opam/dune", "opam:2.8.5"],
+                                             ["@opam/merlin", "opam:3.5.0"],
+                                             ["@opam/result", "opam:1.5"],
+                                             ["@opam/yojson", "opam:1.7.0"],
                                              ["ocaml", "4.9.1000"]])}]])],
   ["@opam/merlin-extend",
   new Map([["opam:0.6",
@@ -449,14 +476,16 @@ new Map([["3.7.0",
   [null,
   new Map([[null,
            {
-             packageLocation: "/Users/melwyn/oss/pesy_projects/test/",
+             packageLocation: "/Users/melwyn/oss/pesy_projects/esy-extra-sources-cache-tarball-test/",
              packageDependencies: new Map([["@esy-ocaml/reason", "3.7.0"],
                                              ["@opam/dune", "opam:2.8.5"],
                                              ["@opam/libtorch",
                                              "opam:1.8.0+macos-x86_64"],
+                                             ["@opam/merlin", "opam:3.5.0"],
                                              ["@pesy/esy-pesy",
                                              "0.1.0-alpha.11"],
-                                             ["ocaml", "4.9.1000"]])}]])]]);
+                                             ["ocaml", "4.9.1000"],
+                                             ["refmterr", "3.3.2"]])}]])]]);
 
 let locatorsByLocations = new Map([
 ["../../", topLevelLocator],
@@ -512,6 +541,10 @@ let locatorsByLocations = new Map([
   {
     name: "@opam/csexp",
     reference: "opam:1.5.1"}],
+  ["../../../../../.esy/source/i/opam__s__dot_merlin_reader__opam__c__4.1__e3b8bf05/",
+  {
+    name: "@opam/dot-merlin-reader",
+    reference: "opam:4.1"}],
   ["../../../../../.esy/source/i/opam__s__dune__opam__c__2.8.5__9a8eab21/",
   {
     name: "@opam/dune",
@@ -544,6 +577,10 @@ let locatorsByLocations = new Map([
   {
     name: "@opam/menhirSdk",
     reference: "opam:20210419"}],
+  ["../../../../../.esy/source/i/opam__s__merlin__opam__c__3.5.0__b453e51c/",
+  {
+    name: "@opam/merlin",
+    reference: "opam:3.5.0"}],
   ["../../../../../.esy/source/i/opam__s__merlin_extend__opam__c__0.6__4a4028a6/",
   {
     name: "@opam/merlin-extend",
@@ -625,6 +662,11 @@ let locatorsByLocations = new Map([
 
       if (relativeLocation.length >= 82 && relativeLocation[81] === '/')
         if (match = locatorsByLocations.get(relativeLocation.substr(0, 82)))
+          return blacklistCheck(match);
+      
+
+      if (relativeLocation.length >= 80 && relativeLocation[79] === '/')
+        if (match = locatorsByLocations.get(relativeLocation.substr(0, 80)))
           return blacklistCheck(match);
       
 

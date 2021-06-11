@@ -1,0 +1,3 @@
+(library (name EsyExtraSourcesCacheTarballTestLibrary)
+    (public_name esy-extra-sources-cache-tarball-test.library)
+    (modules (:standard)))

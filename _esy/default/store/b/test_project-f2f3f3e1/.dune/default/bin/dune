@@ -1,0 +1,12 @@
+(executable (name EsyExtraSourcesCacheTarballTestApp)
+    (modules (:standard \ EsyExtraSourcesCacheTarballTestBinPesyModules))
+    (public_name EsyExtraSourcesCacheTarballTestApp)
+    (libraries esy-extra-sources-cache-tarball-test.bin.pesy-modules)
+    (flags -open EsyExtraSourcesCacheTarballTestBinPesyModules))
+(library (public_name esy-extra-sources-cache-tarball-test.bin.pesy-modules)
+    (name EsyExtraSourcesCacheTarballTestBinPesyModules)
+    (modules EsyExtraSourcesCacheTarballTestBinPesyModules)
+    (libraries esy-extra-sources-cache-tarball-test.library))
+(rule
+    (with-stdout-to EsyExtraSourcesCacheTarballTestBinPesyModules.re
+        (run echo "module Library = EsyExtraSourcesCacheTarballTestLibrary;")))

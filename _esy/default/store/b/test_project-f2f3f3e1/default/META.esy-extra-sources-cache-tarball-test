@@ -1,0 +1,21 @@
+package "bin" (
+  directory = "bin"
+  package "pesy-modules" (
+    directory = "pesy-modules"
+    description = ""
+    requires = "esy-extra-sources-cache-tarball-test.library"
+    archive(byte) = "EsyExtraSourcesCacheTarballTestBinPesyModules.cma"
+    archive(native) = "EsyExtraSourcesCacheTarballTestBinPesyModules.cmxa"
+    plugin(byte) = "EsyExtraSourcesCacheTarballTestBinPesyModules.cma"
+    plugin(native) = "EsyExtraSourcesCacheTarballTestBinPesyModules.cmxs"
+  )
+)
+package "library" (
+  directory = "library"
+  description = ""
+  requires = ""
+  archive(byte) = "EsyExtraSourcesCacheTarballTestLibrary.cma"
+  archive(native) = "EsyExtraSourcesCacheTarballTestLibrary.cmxa"
+  plugin(byte) = "EsyExtraSourcesCacheTarballTestLibrary.cma"
+  plugin(native) = "EsyExtraSourcesCacheTarballTestLibrary.cmxs"
+)

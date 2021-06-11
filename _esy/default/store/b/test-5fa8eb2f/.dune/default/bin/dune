@@ -1,8 +1,0 @@
-(executable (name TestApp) (modules (:standard \ TestBinPesyModules))
-    (public_name TestApp) (libraries test.bin.pesy-modules)
-    (flags -open TestBinPesyModules))
-(library (public_name test.bin.pesy-modules) (name TestBinPesyModules)
-    (modules TestBinPesyModules) (libraries test.library))
-(rule
-    (with-stdout-to TestBinPesyModules.re
-        (run echo "module Library = TestLibrary;")))

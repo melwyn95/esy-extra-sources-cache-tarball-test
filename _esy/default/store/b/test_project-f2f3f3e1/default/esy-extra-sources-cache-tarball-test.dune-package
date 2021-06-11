@@ -1,0 +1,54 @@
+(lang dune 2.6)
+(name esy-extra-sources-cache-tarball-test)
+(library
+ (name esy-extra-sources-cache-tarball-test.bin.pesy-modules)
+ (kind normal)
+ (orig_src_dir
+  /Users/melwyn/oss/pesy_projects/esy-extra-sources-cache-tarball-test/bin)
+ (archives
+  (byte bin/pesy-modules/EsyExtraSourcesCacheTarballTestBinPesyModules.cma)
+  (native bin/pesy-modules/EsyExtraSourcesCacheTarballTestBinPesyModules.cmxa))
+ (plugins
+  (byte bin/pesy-modules/EsyExtraSourcesCacheTarballTestBinPesyModules.cma)
+  (native bin/pesy-modules/EsyExtraSourcesCacheTarballTestBinPesyModules.cmxs))
+ (native_archives
+  bin/pesy-modules/EsyExtraSourcesCacheTarballTestBinPesyModules.a)
+ (requires esy-extra-sources-cache-tarball-test.library)
+ (main_module_name EsyExtraSourcesCacheTarballTestBinPesyModules)
+ (modes byte native)
+ (modules
+  (singleton
+   (name EsyExtraSourcesCacheTarballTestBinPesyModules)
+   (obj_name esyExtraSourcesCacheTarballTestBinPesyModules)
+   (visibility public)
+   (impl))))
+(library
+ (name esy-extra-sources-cache-tarball-test.library)
+ (kind normal)
+ (orig_src_dir
+  /Users/melwyn/oss/pesy_projects/esy-extra-sources-cache-tarball-test/library)
+ (archives
+  (byte library/EsyExtraSourcesCacheTarballTestLibrary.cma)
+  (native library/EsyExtraSourcesCacheTarballTestLibrary.cmxa))
+ (plugins
+  (byte library/EsyExtraSourcesCacheTarballTestLibrary.cma)
+  (native library/EsyExtraSourcesCacheTarballTestLibrary.cmxs))
+ (native_archives library/EsyExtraSourcesCacheTarballTestLibrary.a)
+ (main_module_name EsyExtraSourcesCacheTarballTestLibrary)
+ (modes byte native)
+ (modules
+  (wrapped
+   (main_module_name EsyExtraSourcesCacheTarballTestLibrary)
+   (modules
+    ((name Util)
+     (obj_name esyExtraSourcesCacheTarballTestLibrary__Util)
+     (visibility public)
+     (impl)
+     (intf)))
+   (alias_module
+    (name EsyExtraSourcesCacheTarballTestLibrary)
+    (obj_name esyExtraSourcesCacheTarballTestLibrary)
+    (visibility public)
+    (kind alias)
+    (impl))
+   (wrapped true))))

@@ -1,4 +1,4 @@
 #!/bin/sh
-export ESY__NODE_BIN_PATH="/Users/melwyn/oss/pesy_projects/test/_esy/default/bin"
-exec "/Users/melwyn/.nvm/versions/node/v14.16.1/bin/node" -r "/Users/melwyn/oss/pesy_projects/test/_esy/default/pnp.js" "$@"
+export ESY__NODE_BIN_PATH="/Users/melwyn/oss/pesy_projects/esy-extra-sources-cache-tarball-test/_esy/default/bin"
+exec "/Users/melwyn/.nvm/versions/node/v14.16.1/bin/node" -r "/Users/melwyn/oss/pesy_projects/esy-extra-sources-cache-tarball-test/_esy/default/pnp.js" "$@"
               

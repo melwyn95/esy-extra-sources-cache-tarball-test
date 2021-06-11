@@ -1,9 +1,10 @@
 {
-  "test@link-dev:./package.json": "/Users/melwyn/oss/pesy_projects/test",
   "refmterr@3.3.2@d41d8cd9":
     "/Users/melwyn/.esy/source/i/refmterr__3.3.2__c05a3ba9",
   "ocaml@4.9.1000@d41d8cd9":
     "/Users/melwyn/.esy/source/i/ocaml__4.9.1000__76dfc1e0",
+  "esy-extra-sources-cache-tarball-test@link-dev:./package.json":
+    "/Users/melwyn/oss/pesy_projects/esy-extra-sources-cache-tarball-test",
   "@reason-native/pastel@0.3.0@d41d8cd9":
     "/Users/melwyn/.esy/source/i/reason_native__s__pastel__0.3.0__b97c16ec",
   "@reason-native/console@0.1.0@d41d8cd9":
@@ -32,6 +33,8 @@
     "/Users/melwyn/.esy/source/i/opam__s__num__opam__c__1.4__80adde80",
   "@opam/merlin-extend@opam:0.6@88755c91":
     "/Users/melwyn/.esy/source/i/opam__s__merlin_extend__opam__c__0.6__4a4028a6",
+  "@opam/merlin@opam:3.5.0@f8ae5d56":
+    "/Users/melwyn/.esy/source/i/opam__s__merlin__opam__c__3.5.0__b453e51c",
   "@opam/menhirSdk@opam:20210419@9c7661a4":
     "/Users/melwyn/.esy/source/i/opam__s__menhirsdk__opam__c__20210419__3462be48",
   "@opam/menhirLib@opam:20210419@0b3db8d0":
@@ -48,6 +51,8 @@
     "/Users/melwyn/.esy/source/i/opam__s__dune_configurator__opam__c__2.8.5__c5d0206c",
   "@opam/dune@opam:2.8.5@01003f12":
     "/Users/melwyn/.esy/source/i/opam__s__dune__opam__c__2.8.5__9a8eab21",
+  "@opam/dot-merlin-reader@opam:4.1@84436e1c":
+    "/Users/melwyn/.esy/source/i/opam__s__dot_merlin_reader__opam__c__4.1__e3b8bf05",
   "@opam/csexp@opam:1.5.1@8a8fb3a7":
     "/Users/melwyn/.esy/source/i/opam__s__csexp__opam__c__1.5.1__a5d42d7e",
   "@opam/cppo@opam:1.6.7@57a6d52c":
