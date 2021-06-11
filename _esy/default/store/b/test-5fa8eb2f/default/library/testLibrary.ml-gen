@@ -1,0 +1,2 @@
+(** @canonical TestLibrary.Util *)
+module Util = TestLibrary__Util

@@ -1,0 +1,35 @@
+lib: [
+  "/Users/melwyn/oss/pesy_projects/test/_esy/default/store/b/test-5fa8eb2f/install/default/lib/test/META"
+  "/Users/melwyn/oss/pesy_projects/test/_esy/default/store/b/test-5fa8eb2f/install/default/lib/test/bin/pesy-modules/TestBinPesyModules.a" {"bin/pesy-modules/TestBinPesyModules.a"}
+  "/Users/melwyn/oss/pesy_projects/test/_esy/default/store/b/test-5fa8eb2f/install/default/lib/test/bin/pesy-modules/TestBinPesyModules.cma" {"bin/pesy-modules/TestBinPesyModules.cma"}
+  "/Users/melwyn/oss/pesy_projects/test/_esy/default/store/b/test-5fa8eb2f/install/default/lib/test/bin/pesy-modules/TestBinPesyModules.cmxa" {"bin/pesy-modules/TestBinPesyModules.cmxa"}
+  "/Users/melwyn/oss/pesy_projects/test/_esy/default/store/b/test-5fa8eb2f/install/default/lib/test/bin/pesy-modules/TestBinPesyModules.re" {"bin/pesy-modules/TestBinPesyModules.re"}
+  "/Users/melwyn/oss/pesy_projects/test/_esy/default/store/b/test-5fa8eb2f/install/default/lib/test/bin/pesy-modules/testBinPesyModules.cmi" {"bin/pesy-modules/testBinPesyModules.cmi"}
+  "/Users/melwyn/oss/pesy_projects/test/_esy/default/store/b/test-5fa8eb2f/install/default/lib/test/bin/pesy-modules/testBinPesyModules.cmt" {"bin/pesy-modules/testBinPesyModules.cmt"}
+  "/Users/melwyn/oss/pesy_projects/test/_esy/default/store/b/test-5fa8eb2f/install/default/lib/test/bin/pesy-modules/testBinPesyModules.cmx" {"bin/pesy-modules/testBinPesyModules.cmx"}
+  "/Users/melwyn/oss/pesy_projects/test/_esy/default/store/b/test-5fa8eb2f/install/default/lib/test/dune-package"
+  "/Users/melwyn/oss/pesy_projects/test/_esy/default/store/b/test-5fa8eb2f/install/default/lib/test/library/TestLibrary.a" {"library/TestLibrary.a"}
+  "/Users/melwyn/oss/pesy_projects/test/_esy/default/store/b/test-5fa8eb2f/install/default/lib/test/library/TestLibrary.cma" {"library/TestLibrary.cma"}
+  "/Users/melwyn/oss/pesy_projects/test/_esy/default/store/b/test-5fa8eb2f/install/default/lib/test/library/TestLibrary.cmxa" {"library/TestLibrary.cmxa"}
+  "/Users/melwyn/oss/pesy_projects/test/_esy/default/store/b/test-5fa8eb2f/install/default/lib/test/library/Util.re" {"library/Util.re"}
+  "/Users/melwyn/oss/pesy_projects/test/_esy/default/store/b/test-5fa8eb2f/install/default/lib/test/library/Util.rei" {"library/Util.rei"}
+  "/Users/melwyn/oss/pesy_projects/test/_esy/default/store/b/test-5fa8eb2f/install/default/lib/test/library/testLibrary.cmi" {"library/testLibrary.cmi"}
+  "/Users/melwyn/oss/pesy_projects/test/_esy/default/store/b/test-5fa8eb2f/install/default/lib/test/library/testLibrary.cmt" {"library/testLibrary.cmt"}
+  "/Users/melwyn/oss/pesy_projects/test/_esy/default/store/b/test-5fa8eb2f/install/default/lib/test/library/testLibrary.cmx" {"library/testLibrary.cmx"}
+  "/Users/melwyn/oss/pesy_projects/test/_esy/default/store/b/test-5fa8eb2f/install/default/lib/test/library/testLibrary.ml" {"library/testLibrary.ml"}
+  "/Users/melwyn/oss/pesy_projects/test/_esy/default/store/b/test-5fa8eb2f/install/default/lib/test/library/testLibrary__Util.cmi" {"library/testLibrary__Util.cmi"}
+  "/Users/melwyn/oss/pesy_projects/test/_esy/default/store/b/test-5fa8eb2f/install/default/lib/test/library/testLibrary__Util.cmt" {"library/testLibrary__Util.cmt"}
+  "/Users/melwyn/oss/pesy_projects/test/_esy/default/store/b/test-5fa8eb2f/install/default/lib/test/library/testLibrary__Util.cmti" {"library/testLibrary__Util.cmti"}
+  "/Users/melwyn/oss/pesy_projects/test/_esy/default/store/b/test-5fa8eb2f/install/default/lib/test/library/testLibrary__Util.cmx" {"library/testLibrary__Util.cmx"}
+  "/Users/melwyn/oss/pesy_projects/test/_esy/default/store/b/test-5fa8eb2f/install/default/lib/test/opam"
+]
+libexec: [
+  "/Users/melwyn/oss/pesy_projects/test/_esy/default/store/b/test-5fa8eb2f/install/default/lib/test/bin/pesy-modules/TestBinPesyModules.cmxs" {"bin/pesy-modules/TestBinPesyModules.cmxs"}
+  "/Users/melwyn/oss/pesy_projects/test/_esy/default/store/b/test-5fa8eb2f/install/default/lib/test/library/TestLibrary.cmxs" {"library/TestLibrary.cmxs"}
+]
+bin: [
+  "/Users/melwyn/oss/pesy_projects/test/_esy/default/store/b/test-5fa8eb2f/install/default/bin/TestApp"
+]
+doc: [
+  "/Users/melwyn/oss/pesy_projects/test/_esy/default/store/b/test-5fa8eb2f/install/default/doc/test/README.md"
+]

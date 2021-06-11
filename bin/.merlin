@@ -1,0 +1,7 @@
+EXCLUDE_QUERY_DIR
+B /Users/melwyn/oss/pesy_projects/test/_esy/default/store/b/test_project-18c09df4/default/bin/.TestApp.eobjs/byte
+B /Users/melwyn/oss/pesy_projects/test/_esy/default/store/b/test_project-18c09df4/default/bin/.TestBinPesyModules.objs/byte
+B /Users/melwyn/oss/pesy_projects/test/_esy/default/store/b/test_project-18c09df4/default/library/.TestLibrary.objs/byte
+S .
+S ../library
+FLG -open TestBinPesyModules -w -40

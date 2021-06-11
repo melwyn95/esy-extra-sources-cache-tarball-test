@@ -1,0 +1,36 @@
+{
+  "name": "test",
+  "version": "0.1.0",
+  "description": "Starter Reason Project",
+  "esy": {
+    "build": "dune build -p #{self.name}",
+    "buildDev": "pesy build",
+    "release": {
+      "rewritePrefix": true,
+      "releasedBinaries": [
+        "TestApp"
+      ]
+    }
+  },
+  "buildDirs": {
+    "library": {},
+    "bin": {
+      "imports": [
+        "Library = require('test/library')"
+      ],
+      "bin": {
+        "TestApp": "TestApp.re"
+      }
+    }
+  },
+  "scripts": {
+    "start": "esy x TestApp"
+  },
+  "dependencies": {
+    "@opam/dune": "*",
+    "ocaml": "~4.9.0",
+    "@opam/libtorch": "1.8.0+macos-x86_64",
+    "@esy-ocaml/reason": "*",
+    "@pesy/esy-pesy": "0.1.0-alpha.11"
+  }
+}

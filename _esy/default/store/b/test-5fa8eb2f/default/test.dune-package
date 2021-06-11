@@ -1,0 +1,47 @@
+(lang dune 2.8)
+(name test)
+(library
+ (name test.bin.pesy-modules)
+ (kind normal)
+ (orig_src_dir /Users/melwyn/oss/pesy_projects/test/bin)
+ (archives
+  (byte bin/pesy-modules/TestBinPesyModules.cma)
+  (native bin/pesy-modules/TestBinPesyModules.cmxa))
+ (plugins
+  (byte bin/pesy-modules/TestBinPesyModules.cma)
+  (native bin/pesy-modules/TestBinPesyModules.cmxs))
+ (native_archives bin/pesy-modules/TestBinPesyModules.a)
+ (requires test.library)
+ (main_module_name TestBinPesyModules)
+ (modes byte native)
+ (modules
+  (singleton
+   (name TestBinPesyModules)
+   (obj_name testBinPesyModules)
+   (visibility public)
+   (impl))))
+(library
+ (name test.library)
+ (kind normal)
+ (orig_src_dir /Users/melwyn/oss/pesy_projects/test/library)
+ (archives (byte library/TestLibrary.cma) (native library/TestLibrary.cmxa))
+ (plugins (byte library/TestLibrary.cma) (native library/TestLibrary.cmxs))
+ (native_archives library/TestLibrary.a)
+ (main_module_name TestLibrary)
+ (modes byte native)
+ (modules
+  (wrapped
+   (main_module_name TestLibrary)
+   (modules
+    ((name Util)
+     (obj_name testLibrary__Util)
+     (visibility public)
+     (impl)
+     (intf)))
+   (alias_module
+    (name TestLibrary)
+    (obj_name testLibrary)
+    (visibility public)
+    (kind alias)
+    (impl))
+   (wrapped true))))

@@ -1,0 +1,4 @@
+EXCLUDE_QUERY_DIR
+B /Users/melwyn/oss/pesy_projects/test/_esy/default/store/b/test_project-18c09df4/default/library/.TestLibrary.objs/byte
+S .
+FLG -open TestLibrary -w -40
