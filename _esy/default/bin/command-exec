@@ -7,7 +7,7 @@
 export ESY__ROOT_PACKAGE_CONFIG_PATH="/Users/melwyn/oss/pesy_projects/test/package.json"
 export USER='melwyn'
 export _P9K_TTY='/dev/ttys003'
-export PATH='/private/tmp/esy/node_modules/esy/3/i/esy-30146d5d/bin:/tmp/esy/node_modules/esy/bin:/tmp/esy/node_modules/esy/bin:/Users/melwyn/.asdf/shims:/usr/local/opt/asdf/bin:/Users/melwyn/.nvm/versions/node/v14.16.1/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/opt/fzf/bin:/usr/local/smlnj/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin'
+export PATH='/private/tmp/esy/node_modules/esy/3/i/esy-30146d5d/bin:/tmp/esy/node_modules/esy/bin:/tmp/esy/node_modules/esy/bin:/tmp/esy/node_modules/esy/bin:/Users/melwyn/.asdf/shims:/usr/local/opt/asdf/bin:/Users/melwyn/.nvm/versions/node/v14.16.1/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/opt/fzf/bin:/usr/local/smlnj/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin'
 export LESS='-R'
 export OCAMLPATH='/private/tmp/esy/node_modules/esy/3/i/esy-30146d5d/lib:'
 export NVM_INC='/Users/melwyn/.nvm/versions/node/v14.16.1/include/node'
